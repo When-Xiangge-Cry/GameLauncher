@@ -1,2 +1,2 @@
-# gamelauncher
-just a web page for player 只是个网页，用来美化页面233333
+# 祥阁鸣泣之时·游戏启动器
+通过electron之类的直接构建个启动器，到时候手机电脑都一块构建发布

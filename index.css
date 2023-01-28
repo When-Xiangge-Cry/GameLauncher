@@ -1,0 +1,35 @@
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+  }
+
+body {
+    margin: 0;
+}
+
+main {
+    display: block;
+}
+  
+leftsidebar {
+    position: fixed;
+    background: white;
+    left: 0;
+    height: calc(100% - 60px);
+    width: 250px;
+}
+
+leftsidebarhead {
+    position: fixed;
+    background: white;
+    left: 0;
+    height: calc(100% - 60px);
+    width: 250px;
+}
+
+leftsidebarlistitem {
+    background: #ad5050;
+    color: white;
+    box-shadow: 0 8px 25px -8px #ad5050;
+    box-shadow: 0 8px 25px -8px #ad5050;
+}

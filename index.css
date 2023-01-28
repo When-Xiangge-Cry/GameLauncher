@@ -11,12 +11,16 @@ main {
     display: block;
 }
   
-leftsidebar {
+div.sidebar {
     position: fixed;
     background: white;
     left: 0;
     height: calc(100% - 60px);
     width: 250px;
+}
+
+img {
+    border-style: none;
 }
 
 leftsidebarhead {
@@ -27,9 +31,21 @@ leftsidebarhead {
     width: 250px;
 }
 
+img.head-circle {
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    height: 120px;
+    margin: 20px 0 10px 0;
+}
+
 leftsidebarlistitem {
     background: #ad5050;
     color: white;
     box-shadow: 0 8px 25px -8px #ad5050;
     box-shadow: 0 8px 25px -8px #ad5050;
+}
+
+mainboard {
+    padding-left: 250px;
 }

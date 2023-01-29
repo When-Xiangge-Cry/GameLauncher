@@ -11,12 +11,13 @@ main {
     display: block;
 }
   
-div.sidebar {
+.sidebar {
     position: fixed;
-    background: white;
+    background: rgb(180, 100, 100);
     left: 0;
-    height: calc(100% - 60px);
-    width: 250px;
+    height: calc(100%);
+    width: 300px;
+    z-index: 2;
 }
 
 img {
@@ -31,21 +32,60 @@ leftsidebarhead {
     width: 250px;
 }
 
-img.head-circle {
-    border-radius: 50%;
-    justify-content: center;
+.head {
     display: flex;
+    justify-content: center;
     height: 120px;
-    margin: 20px 0 10px 0;
+    margin: 50px 0 50px 0;
 }
 
-leftsidebarlistitem {
-    background: #ad5050;
+.head-circle {
+    border-radius: 50%;
+    height: 140px;
+    display: table-cell;
+    text-align: center;
+}
+
+.listitem {
+    background: #aa5050;
     color: white;
+    border-radius: 5px;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+.listitem:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.listitem::after {
+    height: 48px;
+    visibility: hidden;
+    content: ' ';
     box-shadow: 0 8px 25px -8px #ad5050;
     box-shadow: 0 8px 25px -8px #ad5050;
 }
 
-mainboard {
-    padding-left: 250px;
+.mainboard {
+    padding-left: 320px;
+    padding-top: 75px;
+}
+
+a {
+    color: #ad5050;
+}
+
+.about {
+    text-align: right;
+    font-size: .85em;
+    position: absolute;
+    bottom: 0;
+    height: fit-content;
+    width: 90%;
+    padding: 5px;
+    opacity: .5;
+}
+
+.appbar {
+    background-image: linear-gradient( #ad5050,rgb(173, 80, 80, 0.01));
 }

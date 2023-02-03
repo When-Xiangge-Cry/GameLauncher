@@ -10,6 +10,13 @@ body {
 main {
     display: block;
 }
+
+@font-face {
+    font-family:HarmonyOS_Sans_SC_Medium;font-style: normal;font-display: swap;
+    src: url('https://blog.khboys.cn/js/HarmonyOS_Sans_SC_Medium.woff2') format('woff2'),
+         url('https://blog.khboys.cn/js/HarmonyOS_Sans_SC_Medium.woff') format('woff');
+}
+*{font-family:HarmonyOS_Sans_SC_Medium;}
   
 .sidebar {
     position: fixed;
@@ -88,4 +95,8 @@ a {
 
 .appbar {
     background-image: linear-gradient( #ad5050,rgb(173, 80, 80, 0.01));
+}
+
+.list-item-active {
+    font-weight: 700;
 }

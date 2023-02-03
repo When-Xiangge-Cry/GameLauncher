@@ -13,8 +13,8 @@ main {
 
 @font-face {
     font-family:HarmonyOS_Sans_SC_Medium;font-style: normal;font-display: swap;
-    src: url('https://blog.khboys.cn/js/HarmonyOS_Sans_SC_Medium.woff2') format('woff2'),
-         url('https://blog.khboys.cn/js/HarmonyOS_Sans_SC_Medium.woff') format('woff');
+    src: url('fonts/HarmonyOS_Sans_SC_Medium.woff2') format('woff2'),
+         url('fonts/HarmonyOS_Sans_SC_Medium.woff') format('woff');
 }
 *{font-family:HarmonyOS_Sans_SC_Medium;}
   
